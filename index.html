@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riverside Nightlife Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content fade-in">
+      <img src="assets/icons/nightlife.svg" class="hero-icon" />
+      <h1>Riverside After Dark</h1>
+      <p>Your personalized nightlife guide</p>
+      <button id="startBtn">Start Exploring</button>
+    </div>
+  </div>
+
+  <section id="chat-section" class="hidden">
+    <div id="chat-box"></div>
+    <div class="input-row">
+      <input type="text" id="user-input" placeholder="Type here..." />
+      <button id="sendBtn">Send</button>
+    </div>
+  </section>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
