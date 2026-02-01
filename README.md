@@ -82,6 +82,7 @@ Icons for type
 
 Google Maps direction links
 
+```
 🗂 Project Structure
 riverside-nightlife/
 │
@@ -106,7 +107,7 @@ riverside-nightlife/
         ├── lounge.svg
         ├── food.svg
         └── activity.svg
-
+```
 
 Minimal, clean, and easy to manage.
 
