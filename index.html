@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Riverside Nightlife Guide</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Neon Nightlife Finder</title>
+<link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-  <div class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content fade-in">
-      <img src="assets/icons/nightlife.svg" class="hero-icon" />
-      <h1>Riverside After Dark</h1>
-      <p>Your personalized nightlife guide</p>
-      <button id="startBtn">Start Exploring</button>
-    </div>
+<section class="hero">
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <img src="assets/icons/nightlife.svg" alt="Neon nightlife icon" class="hero-icon" />
+    <h1>Welcome to Neon Nightlife</h1>
+    <h2>Your personalized nightlife guide</h2>
+    <button id="startBtn">Explore More</button>
   </div>
+</section>
 
-  <section id="chat-section" class="hidden">
-    <div id="chat-box"></div>
-    <div class="input-row">
-      <input type="text" id="user-input" placeholder="Type here..." />
-      <button id="sendBtn">Send</button>
-    </div>
-  </section>
+<section id="chat-section" class="hidden">
+  <div id="chat-box"></div>
+  <div class="input-row">
+    <input type="text" id="user-input" placeholder="Type your answer here..." autocomplete="off" />
+    <button id="sendBtn">Send</button>
+  </div>
+</section>
 
-  <script src="data.js"></script>
-  <script src="script.js"></script>
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>Contact us:
+      <a href="mailto:contact@example.com" aria-label="Email" class="footer-link">📧 Email</a>
+      <a href="tel:+1234567890" aria-label="Phone" class="footer-link">📞 Phone</a>
+      <a href="https://twitter.com/example" target="_blank" rel="noopener" aria-label="Twitter" class="footer-link">🐦 Twitter</a>
+      <a href="https://github.com/example" target="_blank" rel="noopener" aria-label="GitHub" class="footer-link">🐙 GitHub</a>
+    </p>
+    <p>&copy; 2026 YourSiteName. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
 
