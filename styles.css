@@ -235,6 +235,18 @@ button#sendBtn:focus {
   outline: none;
 }
 
+.social-icon {
+  vertical-align: middle;
+  margin-right: 6px;
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.footer-link:hover .social-icon,
+.footer-link:focus .social-icon {
+  filter: drop-shadow(0 0 10px var(--neon2));
+  transform: scale(1.1);
+}
+
 @media (max-width: 768px) {
   #chat-box {
     max-height: 40vh;
